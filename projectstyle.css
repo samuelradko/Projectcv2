@@ -184,6 +184,7 @@ nav ul {
    width: auto;
    height: auto;
    margin: auto;
+   flex-direction:row;
    
  
 }
