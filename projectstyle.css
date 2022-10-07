@@ -167,7 +167,7 @@ nav ul {
 
 
 .topright {
-    margin: -700px 76%;
+    margin: -700px 1900px;
 
 
 }
@@ -184,7 +184,8 @@ nav ul {
    width: auto;
    height: auto;
    margin: auto;
-   flex-direction:row;
+   display:flex;
+   flex-wrap:wrap;
    
- 
+   
 }
