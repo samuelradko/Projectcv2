@@ -1,8 +1,7 @@
-@media only screen 
-  and (min-device-width: 1440px) 
-  and (max-device-width: 3088px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media only screen and (min-device-width: 720px) and (max-device-width: 3033px) and (-webkit-min-device-pixel-ratio: 2) {
+    body, section {
+        flex: 2 1 auto;
+    }
 }
 
 body {
