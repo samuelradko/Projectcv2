@@ -1,12 +1,12 @@
-@media only screen and (min-device-width: 720px) and (max-device-width: 3033px) and (-webkit-min-device-pixel-ratio: 2) {
-    body, section {
-        flex: 2 1 auto;
-    }
+@media only screen and (min-device-width: 720px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+
+   
 }
 
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+
 }
 
 .slide {
@@ -29,7 +29,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: auto;
     display: run-in;
@@ -41,7 +41,10 @@ body {
     transition: transform 0.3s ease;
     background-color: rgba(82, 29, 29, 0.9);
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: 30px;
+    margin: auto;
 }
 
 .slide:hover .slide-content {
@@ -152,6 +155,10 @@ nav ul {
     background-color: rgba(82, 29, 29, 0.9);
     display: flex;
     font-size: xx-large;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    flex-shrink: auto;
+    margin: auto;
 }
 
 .slide:hover .slide-content3 {
@@ -164,15 +171,23 @@ nav ul {
 }
 
 
-.topright{
-    margin: -700px 1250px;
-    
-    
+.topright {
+    margin: -28% 76%;
+
+
 }
 
 
-.topright2{
-    margin: -378px 1250px;
-    
-    
+.topright2 {
+    margin: -15.2% 76%;
+
+
+
+}
+
+.webcont {
+    width: 100%;
+    height: auto;
+   margin: auto;
+ 
 }
