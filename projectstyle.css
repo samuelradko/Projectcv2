@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    
 
 }
 
@@ -24,7 +25,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     height: auto;
     z-index: auto;
     display: run-in;
@@ -117,6 +118,9 @@ nav ul {
     height: auto;
     z-index: auto;
     display: run-in;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
     box-sizing: border-box;
     transition: transform 0.3s ease;
@@ -144,15 +148,14 @@ nav ul {
     height: auto;
     z-index: auto;
     display: run-in;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
     box-sizing: border-box;
     transition: transform 0.3s ease;
     background-color: rgba(82, 29, 29, 0.9);
-    display: flex;
     font-size: xx-large;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
-    flex-shrink: auto;
     margin: auto;
 }
 
@@ -167,25 +170,23 @@ nav ul {
 
 
 .topright {
-    margin: -700px 1900px;
+    margin: -700px 1250px;
 
 
 }
 
 
 .topright2 {
-    margin: -378px 76%;
+    margin: -378px 1200px;
 
 
 
 }
 
 .webcont {
-   width: auto;
-   height: auto;
-   margin: auto;
-   display:flex;
-   flex-wrap:wrap;
-   
-   
+    position:relative;
+    min-width:auto;
+    max-width:fit-content;
+    min-height:auto;
+    max-height:auto;
 }
